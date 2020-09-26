@@ -1,15 +1,19 @@
 # CasaMie Placeholder
 
-Placeholder page while we work on the real deal.
+Placeholder page for Juelide Demirtas Portfolio page.
 
-## Preview
+## 📷 Preview
 
 https://casamie.design/
 
-## Installation
+## 🚀 Installation
 
-Run `gatsby develop` in the terminal to start the dev site.
+1. `git clone https://github.com/ndom91/casamie-design`
+2. `cd casamie-design && npm i`
+3. `npm run dev`
 
-## Thanks
+Your page will then be available at `http://localhost:8000`
 
-Based on [Gatsby Starter](https://github.com/codebushi/gatsby-starter-dimension)
+## 🙏 Thanks
+
+Based on this [Gatsby Starter](https://github.com/codebushi/gatsby-starter-dimension).
