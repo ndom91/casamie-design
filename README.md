@@ -2,7 +2,7 @@
 
 Jülide Demirtas Portfolio page.
 
-## 📷 Preview
+## 📷 Screenshot
 
 https://casamie.design/
 
