@@ -37,7 +37,7 @@ class Main extends React.Component {
           <p>
             This is a placeholder page for my past, present, and future work!
           </p>
-          <p>
+          <div>
             Including:
             <ul>
               <li>Fashion Design</li>
@@ -51,7 +51,7 @@ class Main extends React.Component {
                 </a>
               </li>
             </ul>
-          </p>
+          </div>
           {close}
         </article>
 

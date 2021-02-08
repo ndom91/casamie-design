@@ -9,13 +9,14 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>CasaMie</h1>
-        <p>by Julide Demirtas</p>
+        <p>by Jülide Demirtas</p>
       </div>
     </div>
     <nav>
       <ul>
         <li>
           <button
+            style={{ margin: '0 auto' }}
             onClick={() => {
               props.onOpenArticle('intro')
             }}
@@ -25,6 +26,7 @@ const Header = props => (
         </li>
         <li>
           <button
+            style={{ margin: '0 auto' }}
             onClick={() => {
               props.onOpenArticle('work')
             }}
@@ -34,6 +36,7 @@ const Header = props => (
         </li>
         <li>
           <button
+            style={{ margin: '0 auto' }}
             onClick={() => {
               props.onOpenArticle('about')
             }}
@@ -43,6 +46,7 @@ const Header = props => (
         </li>
         <li>
           <button
+            style={{ margin: '0 auto' }}
             onClick={() => {
               props.onOpenArticle('contact')
             }}
