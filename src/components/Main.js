@@ -66,7 +66,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>Coming Soon!</p>
+          <p>Coming Soon! Promise 🙏</p>
           {close}
         </article>
 
@@ -77,14 +77,14 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">About Mie</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
           <p>
             I am a young professional from Hanover, currently living in
             Frankfurt. I am a flight attendant by day, fashion design student by
-            night, and my hobbies include photography and Netflix :)
+            night, and my hobbies include photography, Netflix, and cheetos 🐯
           </p>
           {close}
         </article>
