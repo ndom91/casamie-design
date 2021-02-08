@@ -1,10 +1,12 @@
-# CasaMie Placeholder
+# Casa Mie Design
 
-Placeholder page for Juelide Demirtas Portfolio page.
+Jülide Demirtas Portfolio page.
 
 ## 📷 Preview
 
 https://casamie.design/
+
+![Screenshot](https://imgur.com/E4zRPoT.png)
 
 ## 🚀 Installation
 
