@@ -90,6 +90,53 @@ class Main extends React.Component {
         </article>
 
         <article
+          id="join"
+          className={`${this.props.article === 'join' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Join Maison Mie</h2>
+          <form
+            method="post"
+            name="join"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="join" />
+            <div className="field half first">
+              <label htmlFor="name">Name</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div className="field half">
+              <label htmlFor="email">Email</label>
+              <input type="text" name="email" id="email" />
+            </div>
+            <div className="field half first">
+              <label htmlFor="zodiac">What is your zodiac sign?</label>
+              <input type="text" name="zodiac" id="zodiac" />
+            </div>
+            <div className="field half">
+              <label htmlFor="super">What is your super power?</label>
+              <input type="text" name="super" id="super" />
+            </div>
+            <div className="field">
+              <label htmlFor="note">Note</label>
+              <textarea name="note" id="note" rows="2"></textarea>
+            </div>
+            <ul className="actions">
+              <li>
+                <input type="submit" value="Send Message" className="special" />
+              </li>
+              <li>
+                <input type="reset" value="Reset" />
+              </li>
+            </ul>
+          </form>
+          {close}
+        </article>
+
+        <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
