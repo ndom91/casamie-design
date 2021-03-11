@@ -128,9 +128,6 @@ class Main extends React.Component {
               <li>
                 <input type="submit" value="Send Message" className="special" />
               </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
             </ul>
           </form>
           {close}
@@ -166,9 +163,6 @@ class Main extends React.Component {
             <ul className="actions">
               <li>
                 <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
               </li>
             </ul>
           </form>
