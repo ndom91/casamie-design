@@ -5,16 +5,21 @@ const Footer = props => (
   <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
     <p className="copyright">
       &copy;{' '}
-      <a alt="ndom91" href="https://github.com/ndom91">
+      <a
+        alt="ndom91"
+        target="_blank"
+        href="https://github.com/ndom91/casamie-design"
+      >
         ndom91
       </a>{' '}
       /{' '}
-      <a alt="html5up" href="https://html5up.net">
-        HTML5UP
-      </a>{' '}
-      /{' '}
-      <a alt="GatsbyJS" href="https://www.gatsbyjs.org/">
-        Gatsby.js
+      <a
+        alt="GatsbyJS"
+        target="_blank"
+        rel="noopener noreferer"
+        href="https://www.gatsbyjs.org/"
+      >
+        Gatsby
       </a>
     </p>
   </footer>

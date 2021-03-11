@@ -1,7 +1,7 @@
 {
   "name": "casasmie-design",
   "description": "Placeholder page for Casamie Portfolio Page",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "author": "ndom91 <yo@ndo.dev>",
   "dependencies": {
     "gatsby": "^2.19.5",

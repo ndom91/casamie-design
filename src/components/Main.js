@@ -66,7 +66,12 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>Coming Soon! Promise 🙏</p>
+          <p>
+            Coming Soon! Promise{' '}
+            <span aria-label="praying hands" role="img">
+              🙏
+            </span>
+          </p>
           {close}
         </article>
 
@@ -84,7 +89,10 @@ class Main extends React.Component {
           <p>
             I am a young professional from Hanover, currently living in
             Frankfurt. I am a flight attendant by day, fashion design student by
-            night, and my hobbies include photography, Netflix, and cheetos 🐯
+            night, and my hobbies include photography, Netflix, and cheetos{' '}
+            <span aria-label="tiger" role="img">
+              🐯
+            </span>
           </p>
           {close}
         </article>
