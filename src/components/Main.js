@@ -121,7 +121,7 @@ class Main extends React.Component {
               <input type="text" name="zodiac" id="zodiac" />
             </div>
             <div className="field first">
-              <label htmlFor="super">Super power?</label>
+              <label htmlFor="super">What is your super power?</label>
               <input type="text" name="super" id="super" />
             </div>
             <div className="field">
