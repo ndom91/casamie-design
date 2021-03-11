@@ -48,20 +48,20 @@ const Header = props => (
           <button
             style={{ margin: '0 auto' }}
             onClick={() => {
-              props.onOpenArticle('join')
-            }}
-          >
-            Join
-          </button>
-        </li>
-        <li>
-          <button
-            style={{ margin: '0 auto' }}
-            onClick={() => {
               props.onOpenArticle('contact')
             }}
           >
             Contact
+          </button>
+        </li>
+        <li>
+          <button
+            style={{ margin: '0 auto', fontWeight: '900' }}
+            onClick={() => {
+              props.onOpenArticle('join')
+            }}
+          >
+            Become a member
           </button>
         </li>
       </ul>

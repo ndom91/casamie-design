@@ -96,7 +96,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Join Maison Mie</h2>
+          <h2 className="major">Become a Member</h2>
           <form
             method="post"
             name="join"
@@ -109,24 +109,20 @@ class Main extends React.Component {
               <input type="text" name="name" id="name" />
             </div>
             <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field half first">
-              <label htmlFor="zodiac">What is your zodiac sign?</label>
+              <label htmlFor="zodiac">Zodiac sign?</label>
               <input type="text" name="zodiac" id="zodiac" />
             </div>
-            <div className="field half">
-              <label htmlFor="super">What is your super power?</label>
+            <div className="field first">
+              <label htmlFor="super">Super power?</label>
               <input type="text" name="super" id="super" />
             </div>
             <div className="field">
-              <label htmlFor="note">Note</label>
+              <label htmlFor="note">Anything else..?</label>
               <textarea name="note" id="note" rows="2"></textarea>
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Send Message" className="special" />
+                <input type="submit" value="Join Us!" className="special" />
               </li>
             </ul>
           </form>
