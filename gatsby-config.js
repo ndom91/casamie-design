@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'CasaMie',
+    title: 'Maison Mie',
     author: 'Julide Demirtas',
-    description: 'CasaMie Design',
+    description: 'Maison Mie Design',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
